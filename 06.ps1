@@ -1,2 +1,2 @@
 #Número d'àlies que té el sistema
-$m.Count
+(Get-Alias).Count
