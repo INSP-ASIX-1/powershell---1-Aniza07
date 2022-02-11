@@ -1,2 +1,2 @@
 #Assigna a la variable $a el Id del procés que té per nom 'bash'
-$a = "bash"
+Get-Process -ProcessName bash | Select-Object -ExpandProperty Id
